@@ -1,0 +1,38 @@
+/* Fondo completo con el GIF */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('fondo.gif'); /* Reemplaza 'tu-imagen.gif' con el nombre de tu archivo GIF */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.countdown {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    height: 200px; /* Ajusta la altura según necesites */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(2, 2, 2, 0.328); /* Fondo oscuro semitransparente sobre el GIF */
+}
+
+.countdown h1 {
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+}
+
+.time {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
